@@ -34,7 +34,7 @@ const[show,setShow]=useState(true);
       <button type='submit'>Submit</button>
     </form>
     }
-    {!show && <div className='outerdiv'> {/* Since show is inverted in line number 196 therefore we are not able to see outerdiv box but on submitting the data, setShow will change show's state to visible and we are able to see outerdiv box  */}
+    {!show && <div className='outerdiv'> {/* Since show is inverted in line number 196 therefore we are able to see outerdiv box but on submitting the data, setShow will change show's state to visible and we are able to see outerdiv box  */}
          {
       details.map((curreElem)=>{
         const{id,name,dept,rating}=curreElem
